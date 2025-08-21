@@ -76,51 +76,56 @@ Content-Length: 305
 ## Exercícios (Múltipla Escolha)
 
 1. O que significa a sigla HTTP?
-   a) HyperText Transfer Protocol
-   b) Home Transfer Protocol
-   c) Hyper Terminal Text Process
-   d) Host Transfer Type
+
+   a) HyperText Transfer Protocol  
+   b) Home Transfer Protocol  
+   c) Hyper Terminal Text Process  
+   d) Host Transfer Type  
    <details><summary>Resposta</summary>
-   a) HyperText Transfer Protocol
+   a) HyperText Transfer Protocol  
    </details>
 
 2. Qual dos métodos abaixo é usado para enviar dados ao servidor?
-   a) GET
-   b) POST
-   c) DELETE
-   d) PUT
+
+   a) GET  
+   b) POST  
+   c) DELETE  
+   d) PUT  
    <details><summary>Resposta</summary>
-   b) POST
+   b) POST  
    </details>
 
 3. Sobre os cabeçalhos HTTP, assinale a alternativa correta:
-   a) São usados apenas em respostas do servidor
-   b) Servem para enviar informações extras na requisição ou resposta
-   c) Só existem no método GET
-   d) São obrigatórios apenas em formulários
+
+   a) São usados apenas em respostas do servidor  
+   b) Servem para enviar informações extras na requisição ou resposta  
+   c) Só existem no método GET  
+   d) São obrigatórios apenas em formulários  
    <details><summary>Resposta</summary>
-   b) Servem para enviar informações extras na requisição ou resposta
+   b) Servem para enviar informações extras na requisição ou resposta  
    </details>
 
 4. Qual a principal diferença entre uma requisição e uma resposta HTTP?
-   a) A requisição é enviada pelo servidor e a resposta pelo navegador
-   b) A requisição contém o conteúdo solicitado e a resposta apenas cabeçalhos
-   c) A requisição é enviada pelo navegador e a resposta pelo servidor
-   d) Não existe diferença
+
+   a) A requisição é enviada pelo servidor e a resposta pelo navegador  
+   b) A requisição contém o conteúdo solicitado e a resposta apenas cabeçalhos  
+   c) A requisição é enviada pelo navegador e a resposta pelo servidor  
+   d) Não existe diferença  
    <details><summary>Resposta</summary>
-   c) A requisição é enviada pelo navegador e a resposta pelo servidor
+   c) A requisição é enviada pelo navegador e a resposta pelo servidor  
    </details>
 
 5. Qual das opções representa corretamente uma requisição GET e uma resposta HTTP?
-   a) GET /index.html HTTP/1.1\nHost: www.exemplo.com
-      HTTP/1.1 200 OK\nContent-Type: text/html
-   b) POST /index.html HTTP/1.1\nHost: www.exemplo.com
-      HTTP/1.1 404 Not Found\nContent-Type: text/html
-   c) DELETE /index.html HTTP/1.1\nHost: www.exemplo.com
-      HTTP/1.1 500 Internal Server Error\nContent-Type: text/html
-   d) PUT /index.html HTTP/1.1\nHost: www.exemplo.com
-      HTTP/1.1 201 Created\nContent-Type: text/html
+
+   a) GET /index.html HTTP/1.1\nHost: www.exemplo.com  
+      HTTP/1.1 200 OK\nContent-Type: text/html  
+   b) POST /index.html HTTP/1.1\nHost: www.exemplo.com  
+      HTTP/1.1 404 Not Found\nContent-Type: text/html  
+   c) DELETE /index.html HTTP/1.1\nHost: www.exemplo.com  
+      HTTP/1.1 500 Internal Server Error\nContent-Type: text/html  
+   d) PUT /index.html HTTP/1.1\nHost: www.exemplo.com  
+      HTTP/1.1 201 Created\nContent-Type: text/html  
    <details><summary>Resposta</summary>
-   a) GET /index.html HTTP/1.1\nHost: www.exemplo.com
-      HTTP/1.1 200 OK\nContent-Type: text/html
+   a) GET /index.html HTTP/1.1\nHost: www.exemplo.com  
+      HTTP/1.1 200 OK\nContent-Type: text/html  
    </details>
