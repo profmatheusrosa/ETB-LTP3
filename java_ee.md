@@ -135,12 +135,3 @@ public class OlaServlet extends HttpServlet {
 
 
 ---
-
-## Glossário (termos essenciais)
-- Servlet: Componente Java que processa requisições HTTP e produz respostas (HTML, JSON, redirecionamento).
-- WAR: Web Application Archive — arquivo empacotado (`.war`) que contém a aplicação web para deploy em um servidor.
-- REST: Estilo arquitetural para criar APIs baseadas em recursos e que usam verbs HTTP (GET, POST, PUT, DELETE).
-- JSON: Formato leve de troca de dados (texto) muito usado em APIs REST.
-- JPA: Java Persistence API — especificação para mapear entidades Java a tabelas de banco de dados (ORM).
-- CDI: Injeção de dependência e gerenciamento de contexto em aplicações Java EE.
-- EJB: Enterprise JavaBeans — componentes de servidor que podem lidar com transações e concorrência.
