@@ -78,7 +78,7 @@ public class OlaServlet extends HttpServlet {
         resp.getWriter().write("<h1>Olá do Servlet!</h1>");
     }
 }
-
+```
 ---
 
 ## 5. Ferramentas e fluxo de trabalho
