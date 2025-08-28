@@ -1,4 +1,4 @@
-# Java EE (Jakarta EE) para Alunos de Ensino Técnico
+# Java EE (Jakarta EE)
 
 ## Sumário
 - [Objetivo](#objetivo)
@@ -12,7 +12,7 @@
 
 
 ## Objetivo
-Apresentar os conceitos básicos de Java EE (atualmente conhecido como Jakarta EE) aplicados ao desenvolvimento de aplicações web, usando como base os conteúdos sobre aplicações web (cliente-servidor, HTTP, HTML). O material é pensado para alunos de ensino técnico, com linguagem direta, exemplos práticos e tarefas simples.
+Apresentar os conceitos básicos de Java EE (atualmente conhecido como Jakarta EE) aplicados ao desenvolvimento de aplicações web, usando como base os conteúdos sobre aplicações web (cliente-servidor, HTTP, HTML).
 
 ---
 
@@ -46,7 +46,7 @@ Apresentar os conceitos básicos de Java EE (atualmente conhecido como Jakarta E
   - Mecanismo para injetar dependências e gerenciar componentes do aplicativo.
 
 - EJB (Enterprise JavaBeans)
-  - Fornece componentes com funcionalidades adicionais (transações, concorrência). Componentes do servidor que executam regras de negócio.
+  - Fornece componentes que executam regras de negócio (transações, concorrência).
 
 ---
 
@@ -85,7 +85,7 @@ public class OlaServlet extends HttpServlet {
 - IDEs: Eclipse, IntelliJ IDEA, VS Code (com extensões).
 - Build: Maven ou Gradle (Maven é muito usado em exemplos didáticos).
 - Servidor para testes: Apache Tomcat (servlets/JSP), Payara ou WildFly (implementam muitas APIs Java EE).
-- Empacotamento: `.war` (aplicação web). Em servidores completos pode usar `.ear` (aplicações empresariais), mas para o curso foque em WAR.
+- Empacotamento: `.war` (aplicação web). Em servidores completos pode usar `.ear` (aplicações empresariais).
 
 ---
 
