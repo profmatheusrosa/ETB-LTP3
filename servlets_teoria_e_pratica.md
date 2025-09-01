@@ -1,6 +1,33 @@
 # SERVLETS - TEORIA E PRÁTICA
 ## Módulo 2 - Java EE
 
+## Sumário
+
+1. [Conteúdo Teórico](#conteúdo-teórico)
+    - [Definição de Servlets](#31-definição-de-servlets)
+    - [Ciclo de Vida do Servlet](#32-ciclo-de-vida-do-servlet)
+    - [Tratamento de Solicitações GET e POST](#33-tratamento-de-solicitações-get-e-post)
+    - [Parâmetros e Respostas](#34-parâmetros-e-respostas)
+    - [Redirecionamento e Encaminhamento](#35-redirecionamento-e-encaminhamento)
+    - [Sessões](#36-sessões)
+
+2. [Conteúdo Prático](#🛠️-conteúdo-prático)
+    - [Configuração do Ambiente](#configuração-do-ambiente)
+    - [Exercício Prático 1: Primeiro Servlet](#exercício-prático-1-primeiro-servlet)
+    - [Exercício Prático 2: Formulário com GET e POST](#exercício-prático-2-formulário-com-get-e-post)
+    - [Exercício Prático 3: Sessões e Redirecionamento](#exercício-prático-3-sessões-e-redirecionamento)
+
+3. [Exercícios de Fixação](#📋-exercícios-de-fixação)
+
+4. [Dicas Importantes](#🔧-dicas-importantes)
+
+5. [Resumo dos Conceitos](#📚-resumo-dos-conceitos)
+
+6. [Objetivos de Aprendizagem](#🎯-objetivos-de-aprendizagem)
+
+---
+
+
 ---
 
 ## 📚 CONTEÚDO TEÓRICO
