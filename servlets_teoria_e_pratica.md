@@ -32,6 +32,19 @@
 
 ## 📚 CONTEÚDO TEÓRICO
 
+
+## 🎯 OBJETIVOS DE APRENDIZAGEM
+
+Ao final deste módulo, você será capaz de:
+
+✅ Entender o conceito e funcionamento dos Servlets  
+✅ Implementar Servlets básicos no NetBeans  
+✅ Diferenciar métodos GET e POST  
+✅ Trabalhar com parâmetros e respostas  
+✅ Implementar redirecionamentos e encaminhamentos  
+✅ Gerenciar sessões de usuário  
+✅ Criar aplicações web funcionais  
+
 ### 3.1 DEFINIÇÃO DE SERVLETS
 
 **O que é um Servlet?**
@@ -644,20 +657,5 @@ session.setMaxInactiveInterval(1800); // 30 minutos
 | **Redirecionamento** | Nova requisição HTTP | `sendRedirect()` |
 | **Encaminhamento** | Mesma requisição HTTP | `forward()` |
 
----
 
-## 🎯 OBJETIVOS DE APRENDIZAGEM
 
-Ao final deste módulo, você será capaz de:
-
-✅ Entender o conceito e funcionamento dos Servlets  
-✅ Implementar Servlets básicos no NetBeans  
-✅ Diferenciar métodos GET e POST  
-✅ Trabalhar com parâmetros e respostas  
-✅ Implementar redirecionamentos e encaminhamentos  
-✅ Gerenciar sessões de usuário  
-✅ Criar aplicações web funcionais  
-
----
-
-*Este material foi desenvolvido para alunos de ensino técnico, com foco na prática e compreensão dos conceitos fundamentais de Servlets em Java EE.*
