@@ -1,5 +1,26 @@
 # ETB-LTP3
 
+## 📋 PRÉ-REQUISITOS E CONFIGURAÇÃO DO AMBIENTE
+
+### 🛠️ **Ferramentas Necessárias:**
+
+| **Componente** | **Versão** | **Descrição** |
+|----------------|------------|---------------|
+| **Java JDK** | **8** | Java Development Kit versão 8 (LTS) |
+| **NetBeans** | **8.2** | IDE oficial para desenvolvimento Java EE |
+| **Servidor** | **GlassFish 4.1.1** | Servidor de aplicação Java EE 7 |
+
+### ⬇️ **Downloads:**
+
+- **NetBeans 8.2 com WildFly integrado:** [Download NetBeans 8.2 Java EE](https://dlc-cdn.sun.com/netbeans/8.2/final/bundles/netbeans-8.2-javaee-windows.exe)
+
+### ⚠️ **Importante:**
+- Use **exclusivamente** Java JDK 8 para este curso
+- O NetBeans 8.2 é a versão oficial recomendada
+- GlassFish 4.1.1 é o servidor padrão para desenvolvimento Java EE 7
+
+---
+
 ## CONTEÚDO DO CURSO
 | **Módulo**   | **Tópicos Principais**                       | **Subtópicos**                                                                                   | **Detalhes**                                                                 |
 |--------------|----------------------------------------------|--------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
