@@ -2,6 +2,7 @@
 
 ## Sumário
 - [Objetivo](#objetivo)
+- [📚 **História e Evolução das Plataformas Java Enterprise**](#-história-e-evolução-das-plataformas-java-enterprise)
 - [1. Visão Geral — Como Java EE se encaixa na Web](#1-visão-geral--como-java-ee-se-encaixa-na-web)
 - [2. Componentes Principais (visão prática)](#2-componentes-principais-visão-prática)
 - [3. Ciclo básico de uma requisição em Java EE](#3-ciclo-básico-de-uma-requisição-em-java-ee)
@@ -13,6 +14,47 @@
 
 ## Objetivo
 Apresentar os conceitos básicos de Java EE (atualmente conhecido como Jakarta EE) aplicados ao desenvolvimento de aplicações web, usando como base os conteúdos sobre aplicações web (cliente-servidor, HTTP, HTML).
+
+---
+
+## 📚 **História e Evolução das Plataformas Java Enterprise**
+
+### **🔍 Diferenças entre as Plataformas:**
+
+| **Plataforma** | **Período** | **Versões** | **Status** | **Características** |
+|----------------|-------------|-------------|------------|---------------------|
+| **J2EE** | 1999-2006 | 1.2, 1.3, 1.4 | ❌ **OBSOLETO** | Primeira versão, complexa |
+| **Java EE** | 2006-2017 | 5, 6, 7, 8 | ⚠️ **SUPORTADO** | Melhorias significativas |
+| **Jakarta EE** | 2017-presente | 8, 9, 9.1, 10 | ✅ **ATUAL** | Futuro da plataforma |
+| **Java Web** | - | - | 📝 **CONCEITO** | Subconjunto web apenas |
+
+### **📖 Explicação Detalhada:**
+
+#### **1. J2EE (Java 2 Enterprise Edition)**
+- **O que é:** Primeira versão da plataforma empresarial Java
+- **Problemas:** Muito complexa, configuração manual, difícil de usar
+- **Por que não usar:** **OBSOLETA** - não recebe atualizações de segurança
+- **Exemplo:** EJB 2.x com interfaces complexas
+
+#### **2. Java EE (Java Enterprise Edition)**
+- **O que é:** Evolução do J2EE com melhorias significativas
+- **Melhorias:** Anotações, configuração simplificada, melhor performance
+- **Versões importantes:**
+  - **Java EE 5 (2006):** Anotações, EJB 3.0 simplificado
+  - **Java EE 6 (2009):** CDI, JAX-RS, perfis
+  - **Java EE 7 (2013):** WebSocket, JSON-P, Batch
+  - **Java EE 8 (2017):** HTTP/2, JSON-B, Security API
+
+#### **3. Jakarta EE (Eclipse Foundation)**
+- **O que é:** Continuação do Java EE sob a Eclipse Foundation
+- **Por que mudou:** Oracle transferiu o controle para a comunidade
+- **Benefícios:** Desenvolvimento mais rápido, mais inovação
+- **Compatibilidade:** 100% compatível com Java EE 8
+
+#### **4. Java Web**
+- **O que é:** **CONCEITO** - não é uma plataforma oficial
+- **Inclui:** Apenas tecnologias web (Servlets, JSP, JSTL)
+- **Uso:** Para aplicações simples, sem necessidade de recursos empresariais
 
 ---
 
