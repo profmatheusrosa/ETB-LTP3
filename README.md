@@ -1,8 +1,8 @@
 # ETB-LTP3
 
-## 📋 PRÉ-REQUISITOS E CONFIGURAÇÃO DO AMBIENTE
+## PRÉ-REQUISITOS E CONFIGURAÇÃO DO AMBIENTE
 
-### 🛠️ **Ferramentas Necessárias:**
+### **Ferramentas Necessárias:**
 
 | **Componente** | **Versão** | **Descrição** |
 |----------------|------------|---------------|
@@ -10,17 +10,17 @@
 | **NetBeans** | **8.2** | IDE oficial para desenvolvimento Java EE |
 | **Servidor** | **GlassFish 4.1.1** | Servidor de aplicação Java EE 7 |
 
-### 📚 **Plataforma Java:**
+### **Plataforma Java:**
 - **Java EE 7/8** - Plataforma oficial para este curso
 - **Compatível com Jakarta EE 8** - Futuro da plataforma
 - **Não usar J2EE** - Plataforma obsoleta e complexa
 
-### ⬇️ **Downloads:**
+###  **Downloads:**
 
-- **Java JDK 8:** [Download Java JDK 8](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252322_68ce765258164726922591683c51982c)
-- **NetBeans 8.2 com WildFly integrado:** [Download NetBeans 8.2 Java EE](https://dlc-cdn.sun.com/netbeans/8.2/final/bundles/netbeans-8.2-javaee-windows.exe)
+- **Java JDK 8 para Windows x64:** [Download Java JDK 8](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252322_68ce765258164726922591683c51982c)
+- **NetBeans 8.2 com WildFly integrado para Windows x64:** [Download NetBeans 8.2 Java EE](https://dlc-cdn.sun.com/netbeans/8.2/final/bundles/netbeans-8.2-javaee-windows.exe)
 
-### ⚠️ **Importante:**
+### **Importante:**
 - Use **exclusivamente** Java JDK 8 para este curso
 - O NetBeans 8.2 é a versão oficial recomendada
 - GlassFish 4.1.1 é o servidor padrão para desenvolvimento Java EE 7
