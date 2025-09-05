@@ -18,7 +18,7 @@
 ###  **Downloads:**
 
 - **Java JDK 8 para Windows x64:** [Download Java JDK 8](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252322_68ce765258164726922591683c51982c)
-- **NetBeans 8.2 com WildFly integrado para Windows x64:** [Download NetBeans 8.2 Java EE](https://dlc-cdn.sun.com/netbeans/8.2/final/bundles/netbeans-8.2-javaee-windows.exe)
+- **NetBeans 8.2 com GlassFish integrado para Windows x64:** [Download NetBeans 8.2 Java EE](https://dlc-cdn.sun.com/netbeans/8.2/final/bundles/netbeans-8.2-javaee-windows.exe)
 
 ### **Importante:**
 - Use **exclusivamente** Java JDK 8 para este curso
