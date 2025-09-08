@@ -1,9 +1,49 @@
 # SERVLETS - TEORIA E PRÁTICA
 ## Módulo 2 - Java EE
 
+## Sumário
+
+1. [Conteúdo Teórico](#conteúdo-teórico)
+    - [Definição de Servlets](#31-definição-de-servlets)
+    - [Ciclo de Vida do Servlet](#32-ciclo-de-vida-do-servlet)
+    - [Tratamento de Solicitações GET e POST](#33-tratamento-de-solicitações-get-e-post)
+    - [Parâmetros e Respostas](#34-parâmetros-e-respostas)
+    - [Redirecionamento e Encaminhamento](#35-redirecionamento-e-encaminhamento)
+    - [Sessões](#36-sessões)
+
+2. [Conteúdo Prático](#🛠️-conteúdo-prático)
+    - [Configuração do Ambiente](#configuração-do-ambiente)
+    - [Exercício Prático 1: Primeiro Servlet](#exercício-prático-1-primeiro-servlet)
+    - [Exercício Prático 2: Formulário com GET e POST](#exercício-prático-2-formulário-com-get-e-post)
+    - [Exercício Prático 3: Sessões e Redirecionamento](#exercício-prático-3-sessões-e-redirecionamento)
+
+3. [Exercícios de Fixação](#📋-exercícios-de-fixação)
+
+4. [Dicas Importantes](#🔧-dicas-importantes)
+
+5. [Resumo dos Conceitos](#📚-resumo-dos-conceitos)
+
+6. [Objetivos de Aprendizagem](#🎯-objetivos-de-aprendizagem)
+
+---
+
+
 ---
 
 ## 📚 CONTEÚDO TEÓRICO
+
+
+## 🎯 OBJETIVOS DE APRENDIZAGEM
+
+Ao final deste módulo, você será capaz de:
+
+✅ Entender o conceito e funcionamento dos Servlets  
+✅ Implementar Servlets básicos no NetBeans  
+✅ Diferenciar métodos GET e POST  
+✅ Trabalhar com parâmetros e respostas  
+✅ Implementar redirecionamentos e encaminhamentos  
+✅ Gerenciar sessões de usuário  
+✅ Criar aplicações web funcionais  
 
 ### 3.1 DEFINIÇÃO DE SERVLETS
 
@@ -617,20 +657,5 @@ session.setMaxInactiveInterval(1800); // 30 minutos
 | **Redirecionamento** | Nova requisição HTTP | `sendRedirect()` |
 | **Encaminhamento** | Mesma requisição HTTP | `forward()` |
 
----
 
-## 🎯 OBJETIVOS DE APRENDIZAGEM
 
-Ao final deste módulo, você será capaz de:
-
-✅ Entender o conceito e funcionamento dos Servlets  
-✅ Implementar Servlets básicos no NetBeans  
-✅ Diferenciar métodos GET e POST  
-✅ Trabalhar com parâmetros e respostas  
-✅ Implementar redirecionamentos e encaminhamentos  
-✅ Gerenciar sessões de usuário  
-✅ Criar aplicações web funcionais  
-
----
-
-*Este material foi desenvolvido para alunos de ensino técnico, com foco na prática e compreensão dos conceitos fundamentais de Servlets em Java EE.*
