@@ -1,4 +1,12 @@
-## Configuração Inicial do Projeto no NetBeans 8.2
+## Módulo 3: Java Server Pages (JSP) – Parte 1
+
+JSP é uma tecnologia que permite misturar HTML estático com código Java dinâmico. O servidor de aplicação (WildFly) "traduz" o arquivo JSP para um Servlet Java, compila e executa, gerando o HTML final que é enviado ao navegador do cliente.
+
+### 4.1 Scriptlets: Código Java Embutido
+
+- **Teoria**: Scriptlets são blocos de código Java inseridos diretamente em uma página JSP, delimitados por `<%` e `%>`. Todo o código dentro de um scriptlet é executado no servidor a cada requisição. Embora poderosos, o uso excessivo pode deixar o código confuso e difícil de manter.
+
+- **Prática Guiada**: Vamos criar uma página que usa um laço `for` para imprimir uma mensagem 5 vezes.
 
 Antes de começar, vamos criar nosso projeto.
 
@@ -12,17 +20,6 @@ Antes de começar, vamos criar nosso projeto.
 
 O NetBeans criará um projeto com uma estrutura básica, incluindo uma página `index.html`. Vamos usar essa estrutura para criar nossos arquivos JSP.
 
----
-
-## Módulo 3: Java Server Pages (JSP) – Parte 1
-
-JSP é uma tecnologia que permite misturar HTML estático com código Java dinâmico. O servidor de aplicação (WildFly) "traduz" o arquivo JSP para um Servlet Java, compila e executa, gerando o HTML final que é enviado ao navegador do cliente.
-
-### 4.1 Scriptlets: Código Java Embutido
-
-- **Teoria**: Scriptlets são blocos de código Java inseridos diretamente em uma página JSP, delimitados por `<%` e `%>`. Todo o código dentro de um scriptlet é executado no servidor a cada requisição. Embora poderosos, o uso excessivo pode deixar o código confuso e difícil de manter.
-
-- **Prática Guiada**: Vamos criar uma página que usa um laço `for` para imprimir uma mensagem 5 vezes.
   1. No seu projeto `AulaJSP`, clique com o botão direito sobre `Páginas Web`.
   2. Vá em Novo > Página JSP....
   3. Dê o nome de `scriptlet_exemplo.jsp` e clique em Finalizar.
