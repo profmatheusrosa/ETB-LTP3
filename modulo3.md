@@ -6,7 +6,7 @@ Antes de começar, vamos criar nosso projeto.
 - **Categoria e Projeto**: Escolha Java Web na categoria e Aplicação Web no projeto. Clique em Próximo.
 - **Nome e Local**: Dê um nome ao projeto, por exemplo, `AulaJSP`. Clique em Próximo.
 - **Servidor e Configurações**:
-  - No campo Servidor, selecione WildFly Application Server. Se ele não estiver na lista, clique em Adicionar... e aponte para a pasta onde você descompactou o WildFly.
+  - No campo Servidor, selecione GlassFish Server. Se ele não estiver na lista, clique em Adicionar... e aponte para a pasta onde você descompactou o GlassFish.
   - Deixe a Versão do Java EE como Java EE 7 Web.
 - **Finalize**: Clique em Finalizar.
 
@@ -51,7 +51,7 @@ JSP é uma tecnologia que permite misturar HTML estático com código Java dinâ
 </html>
 ```
 
-- **Para executar**: Clique com o botão direito no arquivo `scriptlet_exemplo.jsp` e selecione Executar Arquivo. O NetBeans iniciará o WildFly (se necessário) e abrirá a página no navegador. Você verá uma lista com 5 itens.
+- **Para executar**: Clique com o botão direito no arquivo `scriptlet_exemplo.jsp` e selecione Executar Arquivo. O NetBeans iniciará o GlassFish (se necessário) e abrirá a página no navegador. Você verá uma lista com 5 itens.
 
 - **Exercícios de Múltipla Escolha (4.1)**:
   - Qual é a sintaxe correta para iniciar e terminar um scriptlet JSP?
