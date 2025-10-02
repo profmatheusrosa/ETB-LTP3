@@ -17,7 +17,7 @@
 
 ###  **Downloads:**
 
-- **Java JDK 8 para Windows x64:** [Download Java JDK 8](https://javadl.oracle.com/webapps/download/AutoDL?BundleId=252322_68ce765258164726922591683c51982c)
+- **Java JDK 8 para Windows x64:** [Download Java JDK 8](https://javadl.oracle.com/webapps/download/GetFile/1.8.0_202-b08/1961070e4c9b4e26a04e7f5a083f551e/solaris-i586/jdk-8u202-solaris-x64.tar.gz)
 - **NetBeans 8.2 com GlassFish integrado para Windows x64:** [Download NetBeans 8.2 Java EE](https://dlc-cdn.sun.com/netbeans/8.2/final/bundles/netbeans-8.2-javaee-windows.exe)
 
 ### **Importante:**
