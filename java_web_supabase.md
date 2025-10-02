@@ -371,8 +371,8 @@ public class TesteConexaoServlet extends HttpServlet {
                     out.println("</div>");
                     
                     // Testar uma consulta simples
-                    try (var stmt = conn.createStatement();
-                         var rs = stmt.executeQuery("SELECT COUNT(*) as total FROM usuarios")) {
+                    try (java.sql.Statement stmt = conn.createStatement();
+                         java.sql.ResultSet rs = stmt.executeQuery("SELECT COUNT(*) as total FROM usuarios")) {
                         if (rs.next()) {
                             int total = rs.getInt("total");
                             out.println("<div class='info'>");
@@ -633,7 +633,7 @@ public class UsuarioDAO {
         usuario.setIdade(rs.getInt("idade"));
         
         // PostgreSQL usa TIMESTAMP WITH TIME ZONE
-        var timestamp = rs.getTimestamp("data_cadastro");
+        java.sql.Timestamp timestamp = rs.getTimestamp("data_cadastro");
         if (timestamp != null) {
             usuario.setDataCadastro(timestamp.toLocalDateTime());
         }
