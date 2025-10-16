@@ -55,6 +55,12 @@ Ao final deste módulo, você será capaz de:
 - ✅ **Statement/PreparedStatement**: Executa comandos SQL
 - ✅ **ResultSet**: Armazena resultados das consultas
 
+**Boas práticas e recursos (try-with-resources / gerenciamento de conexões)**
+
+- try-with-resources: ao trabalhar com JDBC prefira usar try-with-resources para abrir e fechar automaticamente objetos como `Connection`, `Statement`/`PreparedStatement` e `ResultSet`. Esses objetos implementam `AutoCloseable` e serão fechados automaticamente mesmo se ocorrer uma exceção, evitando vazamentos de recursos e esgotamento de conexões.
+
+- Driver vs DriverManager vs DataSource: o *driver* (`org.h2.Driver`) é a implementação que fala com o banco. `DriverManager` é a forma simples (útil em exemplos e pequenos projetos) para obter `Connection` via `DriverManager.getConnection(url, user, pass)`. Em aplicações mais robustas e em produção use um `DataSource` (com pool de conexões) para melhorar desempenho e gerenciamento das conexões.
+
 ---
 
 ### 3.2 POR QUE H2?
@@ -161,6 +167,8 @@ PreparedStatement stmt = conn.prepareStatement(sql);
 stmt.setString(1, nome);
 ```
 
+Explicação resumida: além de melhorar a legibilidade, `PreparedStatement` separa o código SQL dos dados, evitando que valores inseridos pelo usuário sejam interpretados como parte do comando SQL (proteção contra SQL Injection). Bancos também podem pré-compilar planos de execução para consultas parametrizadas, trazendo ganho de performance em execuções repetidas.
+
 ---
 
 ### 3.6 PADRÃO DAO
@@ -174,6 +182,21 @@ public interface UsuarioDAO {
     void excluir(int id);
 }
 ```
+
+Breve descrição: o padrão DAO (Data Access Object) define uma camada responsável por isolar toda a lógica de acesso a dados da aplicação. Isso significa centralizar operações CRUD em classes específicas (ex.: `UsuarioDAO`), facilitando manutenção, testes e substituição da tecnologia de persistência sem afetar a lógica de negócio.
+
+---
+
+### 3.7 SERVLETS E ANOTAÇÕES
+
+Em aplicações Java Web, servlets são classes que respondem a requisições HTTP. A anotação `@WebServlet` mapeia um servlet para uma URL (ou conjunto de URLs). Exemplo:
+
+```java
+@WebServlet(name = "ListarUsuariosServlet", urlPatterns = {"/listar-usuarios"})
+public class ListarUsuariosServlet extends HttpServlet { ... }
+```
+
+Essa anotação substitui (ou complementa) entradas em `web.xml` e simplifica o mapeamento de rotas. Use `urlPatterns` para definir o caminho que acionará o servlet.
 
 ---
 
