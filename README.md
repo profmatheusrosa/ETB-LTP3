@@ -4,20 +4,19 @@
 
 | **Data** | **Grupo** |
 |----------|-----------|
-| 23/10 | Grupo 1 |
-| 27/10 | Grupo 2 |
-| 30/10 | Grupo 3 |
-| 03/11 | Grupo 4 |
-| 06/11 | Grupo 5 |
-| 10/11 | Grupo 1 |
-| 13/11 | Grupo 2 |
-| 17/11 | Grupo 3 |
-| 20/11 | Grupo 4 |
-| 24/11 | Grupo 5 |
-| 27/11 | Grupo 1 |
-| 01/12 | Grupo 2 |
-| 04/12 | Grupo 3 |
-| 08/12 | Grupo 4 (A3) |
+| 27/10 | Grupo 1 |
+| 30/10 | Grupo 2 |
+| 03/11 | Grupo 3 |
+| 06/11 | Grupo 4 |
+| 10/11 | Grupo 5 |
+| 13/11 | Grupo 1 |
+| 17/11 | Grupo 2 |
+| 20/11 | Grupo 3 |
+| 24/11 | Grupo 4 |
+| 27/11 | Grupo 5 |
+| 01/12 | Grupo 1 |
+| 04/12 | Grupo 2 |
+| 08/12 | Grupo 3 (A3) |
 
 
 
