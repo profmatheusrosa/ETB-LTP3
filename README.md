@@ -47,7 +47,7 @@
 
 ---
 
-## Compromisso e Integridade Acadêmica
+## Integridade Acadêmica
 
 Vivemos em uma sociedade que, com razão, critica fortemente a desonestidade, a corrupção e as condutas antiéticas. No entanto, é importante refletir que esses grandes desvios começam, muitas vezes, em pequenos atos do dia a dia — quando deixamos de fazer nossa parte, quando copiamos um exercício, pedimos a alguém para resolver um trabalho por nós ou usamos a inteligência artificial para evitar o esforço que deveria ser nosso.
 
@@ -56,6 +56,7 @@ Neste curso, cada exercício, projeto e desafio é uma oportunidade de aprendiza
 A integridade não é uma virtude que se adquire subitamente na vida adulta; ela se cultiva nas decisões aparentemente insignificantes de cada dia. Quando você escolhe enfrentar a dificuldade de um exercício ao invés de simplesmente copiá-lo, está fortalecendo não apenas suas habilidades técnicas, mas seu caráter.
 
 Portanto, convidamos cada aluno a trilhar seu caminho com integridade acadêmica — porque é isso que forma não apenas bons profissionais, mas cidadãos conscientes, capazes de transformar a realidade que tanto desejam ver melhorada.
+
 ---
 
 ## CONTEÚDO DO CURSO
